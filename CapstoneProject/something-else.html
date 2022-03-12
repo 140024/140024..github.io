@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>A Blog</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Blog Template">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- FontAwesome JS-->
+	<script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
+		integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7"
+		crossorigin="anonymous"></script>
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+
+	<!-- carousel css -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/Carousel.css">
+
+
+</head>
+
+<body>
+
+	<header class="header text-center">
+		<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Not a Blog</a></h1>
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+				aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column">
+				<div class="profile-section pt-3 pt-lg-0">
+					<img class="profile-image mb-3 rounded-circle mx-auto"
+						src="assets/images/IMG_20200417_131756_051.jpg" alt="image">
+
+					<div class="bio mb-3">Looking for a web expert?<br>
+						Keep looking. I'm just a newbie to every end of web developing.<br>
+						I'm also trying to land an internship, so if you have one, please contact me.</div>
+					<!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+						<li class="list-inline-item"><a href="https://www.linkedin.com/in/viet-le-a513321a6/"
+								target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+					</ul>
+					<!--//social-list-->
+					<hr>
+				</div>
+				<!--//profile-section-->
+
+				<ul class="navbar-nav flex-column text-left">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="something-else.html"><i
+								class="fas fa-bookmark fa-fw mr-2"></i>Something
+							else</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</header>
+
+	<div class="main-wrapper">
+
+		<div class="container">
+			<h2 class="title mb-3" style="text-align: center">My school</h2>
+
+			<div>
+				<div class="carousel">
+					<ul class="slides">
+						<input type="radio" name="radio-buttons" id="img-1" checked />
+						<li class="slide-container">
+							<div class="slide-image">
+								<img src="assets/images/IMG_0239.JPG" class="responsive">
+							</div>
+							<div class="carousel-controls">
+								<label for="img-3" class="prev-slide">
+									<span>&lsaquo;</span>
+								</label>
+								<label for="img-2" class="next-slide">
+									<span>&rsaquo;</span>
+								</label>
+							</div>
+						</li>
+						<input type="radio" name="radio-buttons" id="img-2" />
+						<li class="slide-container">
+							<div class="slide-image">
+								<img src="assets/images/IMG_20200617_122359_470_2.jpg" class="responsive">
+							</div>
+							<div class="carousel-controls">
+								<label for="img-1" class="prev-slide">
+									<span>&lsaquo;</span>
+								</label>
+								<label for="img-3" class="next-slide">
+									<span>&rsaquo;</span>
+								</label>
+							</div>
+						</li>
+						<input type="radio" name="radio-buttons" id="img-3" />
+						<li class="slide-container">
+							<div class="slide-image">
+								<img src="assets/images/IMG_20200617_122324_880.jpg" class="responsive">
+							</div>
+							<div class="carousel-controls">
+								<label for="img-2" class="prev-slide">
+									<span>&lsaquo;</span>
+								</label>
+								<label for="img-4" class="next-slide">
+									<span>&rsaquo;</span>
+								</label>
+							</div>
+						</li>
+						<input type="radio" name="radio-buttons" id="img-4" />
+						<li class="slide-container">
+							<div class="slide-image">
+								<img src="assets/images/IMG_20200522_102408_650.jpg" class="responsive">
+							</div>
+							<div class="carousel-controls">
+								<label for="img-3" class="prev-slide">
+									<span>&lsaquo;</span>
+								</label>
+								<label for="img-1" class="next-slide">
+									<span>&rsaquo;</span>
+								</label>
+							</div>
+						</li>
+						<div class="carousel-dots">
+							<label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+							<label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+							<label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+							<label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+						</div>
+					</ul>
+				</div>
+			</div>
+
+			<h2 class="title mb-3" style="text-align: center">A random place on Earth</h2>
+
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13754631.216789344!2d139.26116666599637!3d-26.91158116741909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2zw5pj!5e0!3m2!1svi!2s!4v1647091857205!5m2!1svi!2s"
+				width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+
+			<p>I simply want to add a google map, so the location was chosen at random.</p>
+		</div>
+
+			<footer class="footer text-center py-2 theme-bg-dark">
+
+				<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+				<small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a
+						href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+
+			</footer>
+		</div>
+		<!--//main-wrapper-->
+
+
+		<!-- Javascript -->
+		<script src="assets/plugins/jquery-3.3.1.min.js"></script>
+		<script src="assets/plugins/popper.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
